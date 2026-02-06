@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>African Restaurant</title>
-
   <!-- Tailwind CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
@@ -13,229 +12,266 @@
     }
   </style>
 </head>
+
 <body class="font-sans text-gray-800">
 
-<!-- ================= NAVBAR ================= -->
-<nav class="fixed top-0 left-0 w-full z-20 bg-amber-900 text-white shadow">
-  <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
-    <h1 class="text-2xl font-bold">African Restaurant</h1>
-    <ul class="hidden md:flex gap-6 font-medium">
-      <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
-      <li><a href="#about" class="hover:text-yellow-400">About</a></li>
-      <li><a href="#menu" class="hover:text-yellow-400">Our Menu</a></li>
-      <li><a href="#events" class="hover:text-yellow-400">Events</a></li>
-      <li><a href="#reservation" class="hover:text-yellow-400">Reservation</a></li>
-      <li><a href="#catering" class="hover:text-yellow-400">Catering</a></li>
-      <li><a href="#blog" class="hover:text-yellow-400">Blog</a></li>
-      <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
-    </ul>
-  </div>
-</nav>
-
-<!-- ================= HERO ================= -->
-<section id="home" class="relative w-full h-[500px] mt-16">
-  <img src="images/pexels-qaarif-16074401.jpg" alt="African Food Hero" class="absolute inset-0 w-full h-full object-cover brightness-75">
-  <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-    <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">
-      Welcome to African Restaurant
-    </h1>
-    <p class="text-lg md:text-2xl mb-6 drop-shadow-md">
-      Experience the taste of authentic African cuisine
-    </p>
-    <a href="#menu" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">
-      Explore Menu
-    </a>
-  </div>
-</section>
-
-<!-- ================= ABOUT ================= -->
-<section id="about" class="p-10 bg-white">
-  <h2 class="text-4xl font-bold text-center mb-12">About Us</h2>
-
-  <div class="max-w-6xl mx-auto grid gap-12 md:grid-cols-3">
-
-    <!-- Philosophy -->
-    <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Our Philosophy</h3>
-      <p>
-        At African Restaurant, we believe in celebrating authentic flavors, using fresh ingredients, and bringing communities together through the love of food.
-      </p>
-    </div>
-
-    <!-- Commitments -->
-    <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Our Commitments</h3>
-      <ul class="list-disc list-inside text-gray-700">
-        <li>Fresh and high-quality ingredients</li>
-        <li>Authentic African culinary experience</li>
-        <li>Excellent customer service</li>
-        <li>Environmentally friendly practices</li>
+  <!-- ================= NAVBAR ================= -->
+  <nav class="fixed top-0 left-0 w-full z-20 bg-amber-900 text-white shadow">
+    <div class="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
+      <h1 class="text-2xl font-bold">African Restaurant</h1>
+      <ul class="hidden md:flex gap-6 font-medium">
+        <li><a href="#home" class="hover:text-yellow-400">Home</a></li>
+        <li><a href="#about" class="hover:text-yellow-400">About</a></li>
+        <li><a href="#menu" class="hover:text-yellow-400">Our Menu</a></li>
+        <li><a href="#events" class="hover:text-yellow-400">Events</a></li>
+        <li><a href="#reservation" class="hover:text-yellow-400">Reservation</a></li>
+        <li><a href="#catering" class="hover:text-yellow-400">Catering</a></li>
+        <li><a href="#blog" class="hover:text-yellow-400">Blog</a></li>
+        <li><a href="#contact" class="hover:text-yellow-400">Contact</a></li>
       </ul>
     </div>
+  </nav>
 
-    <!-- Testimonials -->
-    <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Testimonials</h3>
-      <div class="space-y-4">
-        <p class="italic">"The food is amazing! Truly brings the taste of Africa to the table." – <span class="font-semibold">Jane D.</span></p>
-        <p class="italic">"Best dining experience I’ve had in years. Highly recommended!" – <span class="font-semibold">Mark T.</span></p>
+  <!-- ================= HERO ================= -->
+  <section id="home" class="relative w-full h-[500px] mt-16">
+    <img src="images/pexels-qaarif-16074401.jpg" alt="African Food Hero" class="absolute inset-0 w-full h-full object-cover brightness-75">
+    <div class="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
+      <h1 class="text-5xl md:text-6xl font-bold mb-4 drop-shadow-lg">Welcome to African Restaurant</h1>
+      <p class="text-lg md:text-2xl mb-6 drop-shadow-md">Experience the taste of authentic African cuisine</p>
+      <a href="#menu" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">Explore Menu</a>
+    </div>
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about" class="p-10 bg-white">
+    <h2 class="text-4xl font-bold text-center mb-12">About Us</h2>
+    <div class="max-w-6xl mx-auto grid gap-12 md:grid-cols-3">
+
+      <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Our Philosophy</h3>
+        <p>At African Restaurant, we believe in celebrating authentic flavors, using fresh ingredients, and bringing communities together through the love of food.</p>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Our Commitments</h3>
+        <ul class="list-disc list-inside text-gray-700">
+          <li>Fresh and high-quality ingredients</li>
+          <li>Authentic African culinary experience</li>
+          <li>Excellent customer service</li>
+          <li>Environmentally friendly practices</li>
+        </ul>
+      </div>
+
+      <div class="bg-gray-50 p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Testimonials</h3>
+        <div class="space-y-4">
+          <p class="italic">"The food is amazing! Truly brings the taste of Africa to the table." – <span class="font-semibold">Jane D.</span></p>
+          <p class="italic">"Best dining experience I’ve had in years. Highly recommended!" – <span class="font-semibold">Mark T.</span></p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= MENU ================= -->
+  <section id="menu" class="p-10 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center mb-12">Our Popular Dishes</h2>
+    <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/pilau.jpg" alt="Pilau" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Pilau</h3>
+        <p>Fragrant spiced rice with meat or vegetables.</p>
+      </div>
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/chapati.jpg" alt="Chapati Stew" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Chapati & Stew</h3>
+        <p>Soft chapati served with flavorful stew.</p>
+      </div>
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/blacktea.jpg" alt="Black Tea" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Black Tea</h3>
+        <p>Traditional hot African tea.</p>
+      </div>
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/salad.jpg" alt="Salad" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Salad</h3>
+        <p>Fresh vegetables with light dressing.</p>
+      </div>
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/samosa.jpg" alt="Samosa" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Samosa</h3>
+        <p>Spicy triangular pastries.</p>
+      </div>
+
+      <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
+        <img src="images/boiledmeat.jpg" alt="Boiled Meat" class="rounded mb-4 w-full h-48 object-cover">
+        <h3 class="text-xl font-semibold mb-2">Boiled Meat</h3>
+        <p>Classic boiled meat served with sides.</p>
+      </div>
+
+    </div>
+  </section>
+  <section id="menu" class="p-10 bg-gray-50">
+  <h2 class="text-4xl font-bold text-center mb-12">Our Menu</h2>
+  <div class="max-w-4xl mx-auto bg-white p-6 rounded shadow">
+
+    <!-- Appetizers -->
+    <h3 class="text-2xl font-semibold mb-4 text-amber-700">Appetizers</h3>
+    <div class="space-y-2 mb-6">
+      <div class="flex justify-between border-b"><span>Samosas</span><span>$5</span></div>
+      <div class="flex justify-between border-b"><span>Mandazi</span><span>$4</span></div>
+      <div class="flex justify-between border-b"><span>Akara</span><span>$6</span></div>
+    </div>
+
+    <!-- Main Dishes -->
+    <h3 class="text-2xl font-semibold mb-4 text-amber-700">Main Dishes</h3>
+    <div class="space-y-2 mb-6">
+      <div class="flex justify-between border-b"><span>Nyama Choma</span><span>$15</span></div>
+      <div class="flex justify-between border-b"><span>Ugali & Sukuma Wiki</span><span>$10</span></div>
+      <div class="flex justify-between border-b"><span>Pilau</span><span>$12</span></div>
+      <div class="flex justify-between border-b"><span>Injera & Doro Wat</span><span>$14</span></div>
+    </div>
+
+    <!-- Sides -->
+    <h3 class="text-2xl font-semibold mb-4 text-amber-700">Sides</h3>
+    <div class="space-y-2 mb-6">
+      <div class="flex justify-between border-b"><span>Chapati</span><span>$3</span></div>
+      <div class="flex justify-between border-b"><span>Plantains</span><span>$4</span></div>
+      <div class="flex justify-between border-b"><span>Coconut Rice</span><span>$5</span></div>
+    </div>
+
+    <!-- Drinks -->
+    <h3 class="text-2xl font-semibold mb-4 text-amber-700">Drinks</h3>
+    <div class="space-y-2 mb-6">
+      <div class="flex justify-between border-b"><span>Spiced Chai</span><span>$3</span></div>
+      <div class="flex justify-between border-b"><span>Bissap</span><span>$3</span></div>
+      <div class="flex justify-between border-b"><span>Mango Juice</span><span>$4</span></div>
+    </div>
+
+    <!-- Kids Menu -->
+    <h3 class="text-2xl font-semibold mb-4 text-amber-700">Kids Menu</h3>
+    <div class="space-y-2">
+      <div class="flex justify-between border-b"><span>Mini Ugali & Sukuma Wiki</span><span>$6</span></div>
+      <div class="flex justify-between border-b"><span>Chapati Wrap with Chicken</span><span>$7</span></div>
+      <div class="flex justify-between border-b"><span>Sweet Mandazi with Fruit Salad</span><span>$5</span></div>
+    </div>
+
+  </div>
+</section>
+
+
+  <!-- ================= EVENTS ================= -->
+  <section id="events" class="p-10 bg-gray-100">
+    <h2 class="text-4xl font-bold text-center mb-12">Upcoming Events</h2>
+    <div class="max-w-5xl mx-auto flex flex-col gap-12">
+
+      <div class="flex flex-col md:flex-row bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
+        <img src="images/concert.jpg" alt="Concert Event" class="w-full md:w-1/2 h-64 object-cover">
+        <div class="p-6 md:w-1/2 flex flex-col justify-center">
+          <h3 class="text-2xl font-bold mb-2">African Music Concert</h3>
+          <p class="text-sm text-gray-600 mb-1">Date: March 20, 2026</p>
+          <p class="text-sm text-gray-600 mb-2">Time: 6:00 PM - 10:00 PM</p>
+          <p>Experience live African music with top performers and a vibrant atmosphere.</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row-reverse bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
+        <img src="images/street-food.jpg" alt="Street Food Event" class="w-full md:w-1/2 h-64 object-cover">
+        <div class="p-6 md:w-1/2 flex flex-col justify-center">
+          <h3 class="text-2xl font-bold mb-2">African Street Food Week</h3>
+          <p class="text-sm text-gray-600 mb-1">Date: April 5-10, 2026</p>
+          <p class="text-sm text-gray-600 mb-2">Time: 12:00 PM - 8:00 PM</p>
+          <p>Enjoy a variety of African street foods from different regions, all in one place.</p>
+        </div>
+      </div>
+
+      <div class="flex flex-col md:flex-row bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
+        <img src="images/sea-food.jpg" alt="Seafood Event" class="w-full md:w-1/2 h-64 object-cover">
+        <div class="p-6 md:w-1/2 flex flex-col justify-center">
+          <h3 class="text-2xl font-bold mb-2">Seafood Night</h3>
+          <p class="text-sm text-gray-600 mb-1">Date: May 15, 2026</p>
+          <p class="text-sm text-gray-600 mb-2">Time: 7:00 PM - 11:00 PM</p>
+          <p>Special seafood dishes with live cooking demos for an unforgettable evening.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ================= RESERVATION ================= -->
+  <section id="reservation" class="p-10 bg-white">
+    <h2 class="text-4xl font-bold text-center mb-12">Reservation</h2>
+    <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded shadow">
+      <form class="grid gap-6">
+        <input type="text" placeholder="Full Name" class="p-3 border rounded w-full" required>
+        <input type="email" placeholder="Email" class="p-3 border rounded w-full" required>
+        <input type="tel" placeholder="Phone Number" class="p-3 border rounded w-full" required>
+        <input type="date" class="p-3 border rounded w-full" required>
+        <input type="time" class="p-3 border rounded w-full" required>
+        <textarea placeholder="Special Requests" class="p-3 border rounded w-full"></textarea>
+        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">Book Table</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ================= CATERING ================= -->
+  <section id="catering" class="p-10 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center mb-12">Catering Services</h2>
+    <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Corporate Events</h3>
+        <p>Professional catering for offices, meetings, and seminars.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Weddings</h3>
+        <p>Delicious African cuisine for your special day.</p>
+      </div>
+      <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3">Parties & Celebrations</h3>
+        <p>From birthdays to family gatherings, we cater it all.</p>
       </div>
     </div>
+  </section>
 
-  </div>
-</section>
-
-<!-- ================= MENU ================= -->
-<section id="menu" class="p-10 bg-gray-50">
-  <h2 class="text-4xl font-bold text-center mb-12">Our Popular Dishes</h2>
-  <div class="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/pilau.jpg" alt="Pilau" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Pilau</h3>
-      <p>Fragrant spiced rice with meat or vegetables.</p>
-    </div>
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/chapati.jpg" alt="Chapati Stew" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Chapati & Stew</h3>
-      <p>Soft chapati served with flavorful stew.</p>
-    </div>
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/blacktea.jpg" alt="Black Tea" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Black Tea</h3>
-      <p>Traditional hot African tea.</p>
-    </div>
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/salad.jpg" alt="Salad" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Salad</h3>
-      <p>Fresh vegetables with light dressing.</p>
-    </div>
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/samosa.jpg" alt="Samosa" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Samosa</h3>
-      <p>Spicy triangular pastries.</p>
-    </div>
-    <div class="border rounded-lg shadow hover:shadow-lg transition p-4 bg-white">
-      <img src="images/boiledmeat.jpg" alt="Boiled Meat" class="rounded mb-4 w-full h-48 object-cover">
-      <h3 class="text-xl font-semibold mb-2">Boiled Meat</h3>
-      <p>Classic boiled meat served with sides.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= EVENTS ================= -->
-<section id="events" class="p-10 bg-gray-100">
-  <h2 class="text-4xl font-bold text-center mb-12">Upcoming Events</h2>
-  <div class="max-w-5xl mx-auto flex flex-col gap-12">
-
-    <!-- Event 1: Image Left -->
-    <div class="flex flex-col md:flex-row bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
-      <img src="images/concert.jpg" alt="Concert Event" class="w-full md:w-1/2 h-64 object-cover">
-      <div class="p-6 md:w-1/2 flex flex-col justify-center">
-        <h3 class="text-2xl font-bold mb-2">African Music Concert</h3>
-        <p class="text-sm text-gray-600 mb-1">Date: March 20, 2026</p>
-        <p class="text-sm text-gray-600 mb-2">Time: 6:00 PM - 10:00 PM</p>
-        <p>Experience live African music with top performers and a vibrant atmosphere.</p>
+  <!-- ================= BLOG ================= -->
+  <section id="blog" class="p-10 bg-white">
+    <h2 class="text-4xl font-bold text-center mb-12">From Our Blog</h2>
+    <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+      <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
+        <img src="images/pilau.jpg" alt="Blog Post 1" class="w-full h-40 object-cover rounded mb-3">
+        <h3 class="text-xl font-semibold mb-2">The Secret to Perfect Pilau</h3>
+        <p>Learn how we make our fragrant spiced rice just right every time.</p>
+      </div>
+      <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
+        <img src="images/fish.jpg" alt="Blog Post 2" class="w-full h-40 object-cover rounded mb-3">
+        <h3 class="text-xl font-semibold mb-2">Fresh Fish: Sourcing & Cooking</h3>
+        <p>From market to plate — how we prepare our signature fish dishes.</p>
+      </div>
+      <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
+        <img src="images/samosa.jpg" alt="Blog Post 3" class="w-full h-40 object-cover rounded mb-3">
+        <h3 class="text-xl font-semibold mb-2">Samosa: Tips for Crispy Perfection</h3>
+        <p>Our tricks for perfectly golden and crunchy samosas every time.</p>
       </div>
     </div>
+  </section>
 
-    <!-- Event 2: Image Right -->
-    <div class="flex flex-col md:flex-row-reverse bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
-      <img src="images/street-food.jpg" alt="Street Food Event" class="w-full md:w-1/2 h-64 object-cover">
-      <div class="p-6 md:w-1/2 flex flex-col justify-center">
-        <h3 class="text-2xl font-bold mb-2">African Street Food Week</h3>
-        <p class="text-sm text-gray-600 mb-1">Date: April 5-10, 2026</p>
-        <p class="text-sm text-gray-600 mb-2">Time: 12:00 PM - 8:00 PM</p>
-        <p>Enjoy a variety of African street foods from different regions, all in one place.</p>
-      </div>
+  <!-- ================= CONTACT ================= -->
+  <section id="contact" class="p-10 bg-gray-50">
+    <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded shadow">
+      <form class="grid gap-6">
+        <input type="text" placeholder="Full Name" class="p-3 border rounded w-full" required>
+        <input type="email" placeholder="Email" class="p-3 border rounded w-full" required>
+        <textarea placeholder="Message" class="p-3 border rounded w-full"></textarea>
+        <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">Send Message</button>
+      </form>
     </div>
-
-    <!-- Event 3: Image Left -->
-    <div class="flex flex-col md:flex-row bg-white rounded shadow overflow-hidden hover:shadow-lg transition">
-      <img src="images/sea-food.jpg" alt="Seafood Event" class="w-full md:w-1/2 h-64 object-cover">
-      <div class="p-6 md:w-1/2 flex flex-col justify-center">
-        <h3 class="text-2xl font-bold mb-2">Seafood Night</h3>
-        <p class="text-sm text-gray-600 mb-1">Date: May 15, 2026</p>
-        <p class="text-sm text-gray-600 mb-2">Time: 7:00 PM - 11:00 PM</p>
-        <p>Special seafood dishes with live cooking demos for an unforgettable evening.</p>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-<!-- ================= RESERVATION ================= -->
-<section id="reservation" class="p-10 bg-white">
-  <h2 class="text-4xl font-bold text-center mb-12">Reservation</h2>
-  <div class="max-w-3xl mx-auto bg-gray-50 p-8 rounded shadow">
-    <form class="grid gap-6">
-      <input type="text" placeholder="Full Name" class="p-3 border rounded w-full" required>
-      <input type="email" placeholder="Email" class="p-3 border rounded w-full" required>
-      <input type="tel" placeholder="Phone Number" class="p-3 border rounded w-full" required>
-      <input type="date" class="p-3 border rounded w-full" required>
-      <input type="time" class="p-3 border rounded w-full" required>
-      <textarea placeholder="Special Requests" class="p-3 border rounded w-full"></textarea>
-      <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">
-        Book Table
-      </button>
-    </form>
-  </div>
-</section>
-
-<!-- ================= CATERING ================= -->
-<section id="catering" class="p-10 bg-gray-50">
-  <h2 class="text-4xl font-bold text-center mb-12">Catering Services</h2>
-  <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Corporate Events</h3>
-      <p>Professional catering for offices, meetings, and seminars.</p>
-    </div>
-    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Weddings</h3>
-      <p>Delicious African cuisine for your special day.</p>
-    </div>
-    <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
-      <h3 class="text-xl font-semibold mb-3">Parties & Celebrations</h3>
-      <p>From birthdays to family gatherings, we cater it all.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= BLOG ================= -->
-<section id="blog" class="p-10 bg-white">
-  <h2 class="text-4xl font-bold text-center mb-12">From Our Blog</h2>
-  <div class="max-w-5xl mx-auto grid gap-8 sm:grid-cols-2 md:grid-cols-3">
-    <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
-      <img src="images/pilau.jpg" alt="Blog Post 1" class="w-full h-40 object-cover rounded mb-3">
-      <h3 class="text-xl font-semibold mb-2">The Secret to Perfect Pilau</h3>
-      <p>Learn how we make our fragrant spiced rice just right every time.</p>
-    </div>
-    <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
-      <img src="images/fish.jpg" alt="Blog Post 2" class="w-full h-40 object-cover rounded mb-3">
-      <h3 class="text-xl font-semibold mb-2">Fresh Fish: Sourcing & Cooking</h3>
-      <p>From market to plate — how we prepare our signature fish dishes.</p>
-    </div>
-    <div class="bg-gray-50 p-4 rounded shadow hover:shadow-lg transition">
-      <img src="images/samosa.jpg" alt="Blog Post 3" class="w-full h-40 object-cover rounded mb-3">
-      <h3 class="text-xl font-semibold mb-2">Samosa: Tips for Crispy Perfection</h3>
-      <p>Our tricks for perfectly golden and crunchy samosas every time.</p>
-    </div>
-  </div>
-</section>
-
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="p-10 bg-gray-50">
-  <h2 class="text-4xl font-bold text-center mb-12">Contact Us</h2>
-  <div class="max-w-3xl mx-auto bg-white p-8 rounded shadow">
-    <form class="grid gap-6">
-      <input type="text" placeholder="Full Name" class="p-3 border rounded w-full" required>
-      <input type="email" placeholder="Email" class="p-3 border rounded w-full" required>
-      <textarea placeholder="Message" class="p-3 border rounded w-full"></textarea>
-      <button type="submit" class="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold py-3 px-6 rounded shadow-lg transition">
-        Send Message
-      </button>
-    </form>
-  </div>
-</section>
+  </section>
 
 </body>
 </html>
